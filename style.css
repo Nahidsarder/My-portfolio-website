@@ -1,17 +1,8 @@
 body{font-family: "Open Sans", sans-serif;
-  
-   
-
 }
-
 .hdr{
-    background-color: #FFF8F3;
-   
-    height: max-content;
-    
-
-
-   
+    background-color: #FFF8F3;  
+    height: max-content;   
 }
 .primary-color {
     color: #FD6E0A;
@@ -36,7 +27,6 @@ ul>li>a{
     font-size: 20px;
     font-weight: 500;
 }
-
 .btn-primary{
     background-color: #FD6E0A;
     color: white;
@@ -47,11 +37,8 @@ ul>li>a{
     padding: 15px;
     width: 150px;
     height: 65;
-
 }
-.btn-cv{
-    
-    
+.btn-cv{ 
     background-color: #FD6E0A;
     color: white;
     border-radius: 5px;
@@ -119,7 +106,7 @@ ul>li>a{
 }
 .rsm{
     display: flex;
-    
+   
 }
 .top{
     margin-top: 50px;
@@ -130,10 +117,9 @@ ul>li>a{
 .fo{
    display: flex;
     margin: 100px;
+   
 }
-.ipt>ul{
-    list-style: none;
-}
+
 .sb{
     background-color: #FD6E0A;
     border: none;
@@ -141,7 +127,30 @@ ul>li>a{
     height: 40px;
     width: 100px;
     color: white;
+    margin-top: 20px;
 }
+.plc{
+    height: 30px;
+    width: 400px;
+    margin-top: 20px;
+    
+}
+.msg{
+    height: 100px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.ip> input {
+    display: block;
+}
+
 .copy{
     text-align: center;
+}
+.if{
+   width: 50%;
+}
+.ipt{
+    margin-left: 100px;
 }
