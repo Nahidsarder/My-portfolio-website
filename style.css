@@ -13,7 +13,8 @@ nav{
     margin-bottom: 70px;
 }
 nav>h2{
-    font-weight: 900;
+    font-size: 45px;
+   font-weight: bold;
 }
 nav>ul{
     display: flex;
@@ -24,16 +25,16 @@ ul>li>a{
     margin-right: 100px;
     text-decoration: none;
     color: black;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 600;
 }
 .btn-primary{
     background-color: #FD6E0A;
     color: white;
     border-radius: 5px;
     border: 0;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 600;
     padding: 15px;
     width: 150px;
     height: 65;
@@ -94,12 +95,15 @@ ul>li>a{
 .js{ 
     display: flex;
     gap: 20px;
+    
 }
 .jsin{
-    background-color: #FFFFFF; 
-    border-radius: 1%; 
-    box-shadow: 0px 0px 3px 3px  rgb(249, 248, 248);
+    background-color: #f9f8f8 ;
+    border: none; 
+    border-radius: 5px;
      padding: 35px;
+    
+     
 }
 .smry{
     text-align: center;
@@ -124,21 +128,30 @@ ul>li>a{
     background-color: #FD6E0A;
     border: none;
     border-radius: 5px;
-    height: 40px;
-    width: 100px;
+    height: 60px;
+    width: 140px;
     color: white;
     margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    
 }
 .plc{
-    height: 30px;
-    width: 400px;
+   
+    padding: 20px 400px 20px 20px;
     margin-top: 20px;
+    border: none;
+    border-radius: 5px;
     
 }
 .msg{
-    height: 100px;
-    width: 400px;
+   
     margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 400px 150px 20px;
+    
+ 
 }
 
 .ip> input {
@@ -150,7 +163,26 @@ ul>li>a{
 }
 .if{
    width: 50%;
+   margin-top: 100px;
+   
 }
 .ipt{
-    margin-left: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+   
 }
+.footer-part{
+    background-color: #FFF8F3;
+}
+.name{
+font-size: 60px;
+font-weight: 900;
+
+}
+.ssl-icon> a{
+  margin-right: 20px;
+   
+}
+  
+
+
