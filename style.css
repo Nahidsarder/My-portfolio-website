@@ -2,15 +2,17 @@ body{font-family: "Open Sans", sans-serif;
 }
 .hdr{
     background-color: #FFF8F3;  
-    height: max-content;   
+    height: max-content; 
+    display: flex;  
 }
 .primary-color {
     color: #FD6E0A;
 }
 nav{
     display: flex;
-    justify-content: space-around; 
-    margin-bottom: 70px;
+    
+
+   margin: 0 0 50px 40px;
 }
 nav>h2{
     font-size: 45px;
@@ -20,9 +22,10 @@ nav>ul{
     display: flex;
     list-style: none;
     align-items: center;
+    margin-left: 200px;
 }
 ul>li>a{
-    margin-right: 100px;
+    margin-right: 70px;
     text-decoration: none;
     color: black;
     font-size: 30px;
@@ -67,7 +70,7 @@ ul>li>a{
     margin-left: 20px; 
 }
 .bnr{
-    margin: 150px 20px 20px 165px;
+    margin: 150px 20px 20px 40px;
     width: 500px;  
 }
 .banner{ 
@@ -107,6 +110,7 @@ ul>li>a{
 }
 .smry{
     text-align: center;
+    
 }
 .rsm{
     display: flex;
