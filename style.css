@@ -1,7 +1,7 @@
 body{font-family: "Open Sans", sans-serif;
 }
 .hdr{
-    background-color: #FFF8F3;  
+    /* background-color: #FFF8F3;   */
     height: max-content; 
     display: flex;  
 }
@@ -30,6 +30,10 @@ ul>li>a{
     color: black;
     font-size: 30px;
     font-weight: 600;
+    border: 5px solid gray;
+    border-radius: 20px;
+    padding: 5px;
+    
 }
 .btn-primary{
     background-color: #FD6E0A;
@@ -187,6 +191,6 @@ font-weight: 900;
   margin-right: 20px;
    
 }
-  
+ 
 
 
